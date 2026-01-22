@@ -1,0 +1,293 @@
+baseurl = "https://masrafi115.githu.io/"
+languageCode = "en"
+# theme: hugo-theme-stack
+title = "masrafi's Blog"
+theme = 'maverick'  
+[languages.en]
+languageName = "English"
+title = "masrafi's Blog"
+weight = 2
+
+[languages.en.params.sidebar]
+subtitle = "Hello! This is masrafi's blog where I share my technical experiences."
+
+
+############################
+# Services
+############################
+[services.disqus]
+shortname = "hugo-theme-stack"
+
+[services.googleAnalytics]
+id = ""
+
+############################
+# Pagination
+############################
+[pagination]
+pagerSize = 3
+
+############################
+# Permalinks
+############################
+[permalinks]
+post = "/p/:slug/"
+page = "/:slug/"
+
+############################
+# Params
+############################
+[params]
+mainSections = ["post"]
+featuredImageField = "image"
+rssFullContent = true
+favicon = "/favicon.png"
+
+############################
+# Footer
+############################
+[params.footer]
+since = 2024
+customText = ""
+
+############################
+# Date format
+############################
+[params.dateFormat]
+published = "Jan 02, 2006"
+lastUpdated = "Jan 02, 2006"
+
+############################
+# Sidebar
+############################
+[params.sidebar]
+emoji = "🫠"
+subtitle = "No stopping!"
+
+[params.sidebar.avatar]
+enabled = true
+local = true
+src = "img/avatar.png"
+
+############################
+# Article
+############################
+[params.article]
+math = false
+toc = true
+readingTime = true
+
+[params.article.license]
+enabled = true
+default = "Licensed under CC BY-NC-SA 4.0"
+
+############################
+# Comments
+############################
+[params.comments]
+enabled = true
+provider = "utterances"
+
+[params.comments.disqusjs]
+shortname = ""
+apiUrl = ""
+apiKey = ""
+admin = ""
+adminLabel = ""
+
+[params.comments.utterances]
+repo = "masrafi115/masrafi115.github.io"
+issueTerm = "pathname"
+label = "comment"
+
+[params.comments.beaudar]
+repo = ""
+issueTerm = "pathname"
+label = ""
+theme = ""
+
+[params.comments.remark42]
+host = ""
+site = ""
+locale = ""
+
+[params.comments.vssue]
+platform = ""
+owner = ""
+repo = ""
+clientId = ""
+clientSecret = ""
+autoCreateIssue = false
+
+[params.comments.waline]
+serverURL = ""
+lang = ""
+pageview = false
+emoji = ["https://unpkg.com/@waline/emojis@1.0.1/weibo"]
+requiredMeta = ["name", "email", "url"]
+
+[params.comments.waline.locale]
+admin = "Admin"
+placeholder = ""
+
+[params.comments.twikoo]
+envId = ""
+region = ""
+path = ""
+lang = ""
+
+
+[params.comments.giscus]
+repo = ""
+repoID = ""
+category = ""
+categoryID = ""
+mapping = ""
+lightTheme = ""
+darkTheme = ""
+reactionsEnabled = 1
+emitMetadata = 0
+
+[params.comments.gitalk]
+owner = ""
+admin = ""
+repo = ""
+clientID = ""
+clientSecret = ""
+proxy = ""
+
+[params.comments.cusdis]
+host = ""
+id = ""
+
+############################
+# Widgets
+############################
+[[params.widgets.homepage]]
+type = "search"
+
+[[params.widgets.homepage]]
+type = "archives"
+[params.widgets.homepage.params]
+limit = 5
+
+[[params.widgets.homepage]]
+type = "categories"
+[params.widgets.homepage.params]
+limit = 10
+
+[[params.widgets.homepage]]
+type = "tag-cloud"
+[params.widgets.homepage.params]
+limit = 10
+
+[[params.widgets.page]]
+type = "toc"
+
+############################
+# OpenGraph
+############################
+[params.opengraph.twitter]
+site = ""
+card = "summary_large_image"
+
+[params.defaultImage.opengraph]
+enabled = false
+local = false
+src = ""
+
+############################
+# Color scheme
+############################
+[params.colorScheme]
+toggle = true
+default = "auto"
+
+############################
+# Image processing
+############################
+[params.imageProcessing.cover]
+enabled = true
+
+[params.imageProcessing.content]
+enabled = true
+
+############################
+# Menu
+############################
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+
+[[menu.social]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/masrafi115"
+weight = 1
+[menu.social.params]
+icon = "brand-github"
+
+[[menu.social]]
+identifier = "email"
+name = "Email"
+url = "mailto:mainulhasanmasrafi49715@gmail.com"
+weight = 2
+[menu.social.params]
+icon = "brand-email"
+
+[[menu.social]]
+identifier = "linkedin"
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/abdur-rahman-rafi-5b5a48236/"
+weight = 3
+[menu.social.params]
+icon = "brand-linkedin"
+
+[[menu.social]]
+identifier = "rss"
+name = "RSS"
+url = "https://masrafi115.github.io/index.xml"
+weight = 4
+[menu.social.params]
+icon = "brand-rss"
+
+############################
+# Related content
+############################
+[related]
+includeNewer = true
+threshold = 60
+toLower = false
+
+[[related.indices]]
+name = "tags"
+weight = 100
+
+[[related.indices]]
+name = "categories"
+weight = 200
+
+
+
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 4
+ordered = true
+
+[markup.highlight]
+noClasses = false
+codeFences = true
+guessSyntax = true
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = true
+tabWidth = 4
+
+
+
