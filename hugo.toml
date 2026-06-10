@@ -41,11 +41,9 @@ mainSections = ["post"]
 featuredImageField = "image"
 rssFullContent = true
 favicon = "/favicon.png"
-
-# Author configuration - FIX
-[params.author]
-name = "Masrafi"
-email = "mainulhasanmasrafi49715@gmail.com"
+logo = "/favicon.png"
+description = "A developer's blog about code, technology, and insights"
+author = "Masrafi"
 
 ############################
 # Footer
@@ -292,3 +290,6 @@ lineNoStart = 1
 lineNos = true
 lineNumbersInTable = true
 tabWidth = 4
+
+[markup.goldmark.renderer]
+unsafe = true
