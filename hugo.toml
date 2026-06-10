@@ -1,8 +1,8 @@
-baseurl = "https://masrafi115.githu.io/"
+baseurl = "https://masrafi115.github.io/"
 languageCode = "en"
-# theme: hugo-theme-stack
 title = "masrafi's Blog"
 theme = 'maverick'  
+
 [languages.en]
 languageName = "English"
 title = "masrafi's Blog"
@@ -10,7 +10,6 @@ weight = 2
 
 [languages.en.params.sidebar]
 subtitle = "Hello! This is masrafi's blog where I share my technical experiences."
-
 
 ############################
 # Services
@@ -42,6 +41,11 @@ mainSections = ["post"]
 featuredImageField = "image"
 rssFullContent = true
 favicon = "/favicon.png"
+
+# Author configuration - FIX
+[params.author]
+name = "Masrafi"
+email = "mainulhasanmasrafi49715@gmail.com"
 
 ############################
 # Footer
@@ -288,6 +292,3 @@ lineNoStart = 1
 lineNos = true
 lineNumbersInTable = true
 tabWidth = 4
-
-
-
