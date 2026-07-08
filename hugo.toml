@@ -37,6 +37,7 @@ pages = "/:slug/"
 # Params
 ############################
 [params]
+items = 10          # ← add this: how many posts to show on homepage
 mainSections = ["posts"]
 featuredImageField = "image"
 rssFullContent = true
