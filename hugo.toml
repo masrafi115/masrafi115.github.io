@@ -30,14 +30,14 @@ pagerSize = 3
 # Permalinks
 ############################
 [permalinks]
-post = "/p/:slug/"
-page = "/:slug/"
+posts = "/p/:slug/"
+pages = "/:slug/"
 
 ############################
 # Params
 ############################
 [params]
-mainSections = ["post"]
+mainSections = ["posts"]
 featuredImageField = "image"
 rssFullContent = true
 favicon = "/favicon.png"
