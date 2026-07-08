@@ -30,7 +30,6 @@ pagerSize = 3
 # Permalinks
 ############################
 [permalinks]
-posts = "/p/:slug/"
 pages = "/:slug/"
 
 ############################
