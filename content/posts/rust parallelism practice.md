@@ -2,7 +2,7 @@
 title: "Markdown Formatting Guide for Developers"
 date: 2026-06-10T11:00:00Z
 lastmod: 2026-06-10T11:00:00Z
-draft: true
+draft: false
 description: "Complete markdown syntax guide for technical writing and note-taking"
 categories:
   - Notes
