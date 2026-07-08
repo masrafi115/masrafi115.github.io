@@ -1,9 +1,9 @@
 ---
-title: "Markdown Formatting Guide for Developers"
+title: "Rust Parallelism"
 date: 2026-06-10T11:00:00Z
 lastmod: 2026-06-10T11:00:00Z
 draft: false
-description: "Complete markdown syntax guide for technical writing and note-taking"
+description: "Rust parallelism in practice"
 categories:
   - Notes
   - Markdown
