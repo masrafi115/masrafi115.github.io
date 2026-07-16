@@ -1,0 +1,17 @@
+---
+title: "goroutine and concurrency"
+date: 2026-06-10T11:00:00Z
+lastmod: 2026-06-10T11:00:00Z
+draft: false
+description: "learning golang goroutine and concurrency"
+categories:
+  - Notes
+  - Markdown
+tags:
+  - markdown
+  - concurrency
+  - golang
+  - technical-writing
+---
+
+#### goroutine and its use
